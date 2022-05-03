@@ -1,5 +1,6 @@
 // 1.  Ejercicios destructuring
-// Dado el siguiente objeto:
+console.log("DESTRUCTURING")
+    // Dado el siguiente objeto:
 const empleados = [
     { name: "Luis", email: "Luis@gmail.com" },
     { name: "Ana", email: "Ana@gmail.com" },
@@ -29,7 +30,8 @@ console.log(b)
 
 
 // 2. Ejercicios spread/rest
-// Escribe una función llamada sumEveryOther que pueda recibir cualquier cantidad de números y devuelva la suma de todos los demás argumentos.
+console.log("SPREAD/REST")
+    // Escribe una función llamada sumEveryOther que pueda recibir cualquier cantidad de números y devuelva la suma de todos los demás argumentos.
 const sumEveryOther = (...numbers) => numbers.reduce((a, b) => a + b)
 
 console.log(sumEveryOther(6, 8, 2, 3, 1)); //20
@@ -71,7 +73,8 @@ console.log(combineTwoArrays)
 
 
 // 3. Extras
-// Dado el siguiente objeto:
+console.log("EXTRAS")
+    // Dado el siguiente objeto:
 const HIGH_TEMPERATURES = {
     yesterday: 30,
     today: 35,
